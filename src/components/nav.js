@@ -50,7 +50,7 @@ function Nav({ isLogin }) {
       <Wrapper>
         <div className="nav-container">
           <NavLink
-            to="/explorer"
+            to="/home"
             className="navlink-element"
             activeClassName="navlink-active"
           >
