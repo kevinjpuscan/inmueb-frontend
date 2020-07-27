@@ -6,7 +6,7 @@ function BtnGoHome() {
   let history = useHistory();
   return (
     <button className="btn-style-less" onClick={() => history.push("/")}>
-      <Logo width="40px" />
+      <Logo width="35px" />
     </button>
   );
 }

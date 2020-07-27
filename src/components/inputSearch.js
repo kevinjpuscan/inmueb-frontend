@@ -10,6 +10,7 @@ export const InputSearchStyled = styled.input`
   font-family: "Roboto";
   font-weight: 700;
   color: var(--secondary);
+  z-index: 999;
 `;
 
 function InputSearch() {

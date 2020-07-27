@@ -10,6 +10,7 @@ export const SearchStyled = styled.div`
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 1000;
   .search-header {
     height: 65px;
     display: flex;

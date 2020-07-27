@@ -7,8 +7,9 @@ export const NavStyled = styled.div`
   height: 65px;
   width: 100%;
   border: 1px solid var(--gray-ligth);
-  position: absolute;
+  position: fixed;
   bottom: 0;
+  background: var(--white);
 
   .nav-container {
     display: flex;

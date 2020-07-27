@@ -25,10 +25,6 @@ export const CardStyled = styled.div`
       margin: 0;
       font-size: 1em;
     }
-    span {
-      margin: 0;
-      font-size: 0.7em;
-    }
     color: var(--gray-very-dark);
   }
   .icon-card {
@@ -42,37 +38,57 @@ export const CardStyled = styled.div`
     color: var(--gray-dark);
     font-weight: 300;
     font-size: 0.8em;
+    padding: 8px 0;
+  }
+
+  .info-card {
+    display: flex;
+    flex-direction: row;
+    color: var(--primary);
+    padding: 8px 0;
+    div {
+      margin-right: 15px;
+    }
+    span {
+      margin: 0;
+      font-size: 0.7em;
+      font-weight: 700;
+    }
+
+    i {
+      font-size: 1em;
+    }
   }
 `;
 
 function Card({ element }) {
   const {
     title,
-    owner,
+    slug,
+    isFav,
     description,
-    image,
-    github,
-    website,
-    imageSize,
+    mesure,
+    coin,
+    unit,
+    price,
     images
   } = element;
   return (
-    <CardStyled image={image} imageSize={imageSize}>
-      <a href={website}>
-        <CarouselImage images={images} />
+    <CardStyled>
+      <a href={slug}>
+        <CarouselImage images={images} isCard isFav={isFav} />
       </a>
 
       <div className="content-card">
         <div className="header-card">
           <div className="title-card">
-            <a href={website}>
+            <a href={slug}>
               <h3>{title}</h3>
             </a>
-            <span>{owner}</span>
           </div>
           <div className="icon-card">
-            {github && (
-              <a href={github}>
+            {false && (
+              <a href="#">
                 <i className="fab fa-github"></i>
               </a>
             )}
@@ -80,6 +96,20 @@ function Card({ element }) {
         </div>
         <div className="body-card">
           <p>{description}</p>
+        </div>
+        <div className="info-card">
+          <div>
+            <span>
+              <i className="fas fa-ruler-combined"></i> {mesure}
+              {unit}
+            </span>
+          </div>
+          <div>
+            <span>
+              <i className="fas fa-tag"></i> {coin}
+              {price}
+            </span>
+          </div>
         </div>
       </div>
     </CardStyled>
