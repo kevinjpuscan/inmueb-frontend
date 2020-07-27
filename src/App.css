@@ -34,3 +34,35 @@ select:focus {
 .color-primary {
   color: var(--primary);
 }
+
+.btn {
+  padding: 15px 50px;
+  font-family: "Roboto";
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  color: var(--white);
+  background: var(--primary);
+  border: none;
+}
+
+.btn-primary:focus {
+  color: var(--white);
+  background: var(--secondary);
+  border: none;
+}
+
+.simple-input {
+  width: 100%;
+  border-radius: 5px;
+  height: 50px;
+  padding: 10px;
+  margin: 15px 0;
+  color: var(--gray);
+  border: 2px solid var(--gray-ligth);
+}
+.simple-input:focus {
+  border: 3px solid var(--primary);
+}

@@ -6,7 +6,7 @@ import Wrapper from "../components/wrapper";
 export const NavStyled = styled.div`
   height: 65px;
   width: 100%;
-  border: 1px solid var(--gray-ligth);
+  border-top: 1px solid var(--gray-ligth);
   position: fixed;
   bottom: 0;
   background: var(--white);
@@ -54,6 +54,15 @@ function Nav({ isLogin }) {
             to="/home"
             className="navlink-element"
             activeClassName="navlink-active"
+            isActive={(match, location) => {
+              if (
+                location.pathname.indexOf("home") > -1 ||
+                location.pathname.indexOf("explorer") > -1
+              ) {
+                return true;
+              }
+              return false;
+            }}
           >
             <div className="icon-navlink">
               <i className="fas fa-search"></i>
@@ -87,6 +96,16 @@ function Nav({ isLogin }) {
             to="/profile"
             className="navlink-element"
             activeClassName="navlink-active"
+            isActive={(match, location) => {
+              if (
+                location.pathname.indexOf("login") > -1 ||
+                location.pathname.indexOf("profile") > -1 ||
+                location.pathname.indexOf("register") > -1
+              ) {
+                return true;
+              }
+              return false;
+            }}
           >
             <div className="icon-navlink">
               <i className="fas fa-user-circle"></i>

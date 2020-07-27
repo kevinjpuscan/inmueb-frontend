@@ -88,7 +88,7 @@ function Card({ element }) {
           </div>
           <div className="icon-card">
             {false && (
-              <a href="#">
+              <a href="/">
                 <i className="fab fa-github"></i>
               </a>
             )}
