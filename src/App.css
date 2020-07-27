@@ -3,6 +3,7 @@
   font-size: 18px;
   margin: 0;
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 :root {
   --primary: #5a53fb;
@@ -17,6 +18,14 @@
   --gray-very-dark: #393944;
 }
 
+a {
+  text-decoration: none;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
 .btn-style-less {
   border: none;
   background: transparent;
