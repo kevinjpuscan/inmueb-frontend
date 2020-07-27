@@ -5,11 +5,11 @@ const WrapperStyled = styled.div`
   max-width: 1312px;
   height: 100%;
   margin: auto;
-  padding: 0 1em;
+  padding: ${props => (props.page ? "80px 1em" : "0 1em")};
 `;
 
-function Wrapper({ children }) {
-  return <WrapperStyled>{children}</WrapperStyled>;
+function Wrapper({ children, page }) {
+  return <WrapperStyled page={page}>{children}</WrapperStyled>;
 }
 
 export default Wrapper;

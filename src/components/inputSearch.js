@@ -3,9 +3,9 @@ import styled from "styled-components";
 import Search from "./search";
 
 export const InputSearchStyled = styled.input`
-  padding: 10px 15px;
+  padding: 10px 10px;
   border-radius: 7px;
-  max-width: 250px;
+  max-width: 230px;
   border: 0.5px solid var(--secondary);
   font-family: "Roboto";
   font-weight: 700;

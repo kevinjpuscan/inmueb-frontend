@@ -43,9 +43,9 @@ function Search() {
         </div>
         <div className="search-options">
           <ResultSearch code="caj" name="Cajamarca, Perú" />
-          <ResultSearch code="caj" name="Cajamarca, Perú" />
-          <ResultSearch code="caj" name="Cajamarca, Perú" />
-          <ResultSearch code="caj" name="Cajamarca, Perú" />
+          <ResultSearch code="caj1" name="Cajamarca, Perú" />
+          <ResultSearch code="caj2" name="Cajamarca, Perú" />
+          <ResultSearch code="caj3" name="Cajamarca, Perú" />
         </div>
       </Wrapper>
     </SearchStyled>
