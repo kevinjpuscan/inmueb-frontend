@@ -8,6 +8,7 @@ import Sales from "./pages/sales";
 import Favs from "./pages/favs";
 import Login from "./pages/login";
 import Register from "./pages/register";
+import Property from "./pages/property";
 
 function Routes() {
   return (
@@ -22,6 +23,7 @@ function Routes() {
         <Route path="/sales" component={Sales}></Route>
         <Route path="/login" component={Login}></Route>
         <Route path="/register" component={Register}></Route>
+        <Route path="/property/:code" component={Property}></Route>
       </Switch>
       <Nav isLogin />
     </BrowserRouter>

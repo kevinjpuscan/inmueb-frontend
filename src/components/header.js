@@ -9,6 +9,7 @@ export const HeaderStyled = styled.div`
   height: 65px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
   position: fixed;
+  top: 0;
   z-index: 999;
   .header-container {
     height: 100%;

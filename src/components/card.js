@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import CarouselImage from "../components/carouselImage";
+import { Link } from "react-router-dom";
 
 export const CardStyled = styled.div`
   width: 100%;
@@ -75,16 +76,16 @@ function Card({ element }) {
   } = element;
   return (
     <CardStyled>
-      <a href={slug}>
+      <div>
         <CarouselImage images={images} isCard isFav={isFav} />
-      </a>
+      </div>
 
       <div className="content-card">
         <div className="header-card">
           <div className="title-card">
-            <a href={slug}>
+            <Link to={"/property/" + slug}>
               <h3>{title}</h3>
-            </a>
+            </Link>
           </div>
           <div className="icon-card">
             {false && (
