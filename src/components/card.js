@@ -76,9 +76,9 @@ function Card({ element }) {
   } = element;
   return (
     <CardStyled>
-      <div>
+      <Link to={"/property/" + slug}>
         <CarouselImage images={images} isCard isFav={isFav} />
-      </div>
+      </Link>
 
       <div className="content-card">
         <div className="header-card">

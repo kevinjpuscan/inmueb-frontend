@@ -37,7 +37,7 @@ export const NavStyled = styled.div`
 
 function Nav({ isLogin }) {
   let location = useLocation();
-  let [isShow, setIsShow] = useState(false);
+  let [isShow, setIsShow] = useState(true);
   let [scroll, setScroll] = useState(0);
 
   const getNavForPath = () => {
