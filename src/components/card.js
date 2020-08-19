@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import CarouselImage from "../components/carouselImage";
+import CarouselImage from "./CarouselImage";
 import { Link } from "react-router-dom";
 
 export const CardStyled = styled.div`

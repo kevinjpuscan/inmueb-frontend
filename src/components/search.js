@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import styled from "styled-components";
-import Wrapper from "./wrapper";
-import ResultSearch from "./resultSearch";
+import Wrapper from "./Wrapper";
+import ResultSearch from "./ResultSearch";
 
 export const SearchStyled = styled.div`
   height: 100vh;

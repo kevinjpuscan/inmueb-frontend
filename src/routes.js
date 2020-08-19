@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 
 import Landing from "./pages/landing";
 import Explorer from "./pages/explorer";
-import Nav from "./components/nav";
+import Nav from "./components/Nav";
 import Sales from "./pages/sales";
 import Favs from "./pages/favs";
 import Login from "./pages/login";

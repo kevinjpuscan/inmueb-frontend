@@ -1,5 +1,5 @@
 import React, { useState, Fragment } from "react";
-import Menu from "../components/menu";
+import Menu from "./Menu";
 
 function BtnMenu({ children }) {
   let [open, setOpen] = useState(false);

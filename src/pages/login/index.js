@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Logo from "../../images/logo";
-import Wrapper from "../../components/wrapper";
+import Wrapper from "../../components/Wrapper";
 import { Link } from "react-router-dom";
 
 export const LoginStyled = styled.div`

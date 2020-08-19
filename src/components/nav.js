@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import Wrapper from "../components/wrapper";
-import NavList from "../components/navList";
-import NavBuy from "../components/navBuy";
+import Wrapper from "./Wrapper";
+import NavList from "./NavList";
+import NavBuy from "./NavBuy";
 import { useLocation } from "react-router-dom";
 
 export const NavStyled = styled.div`

@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import Header from "../../components/header";
-import BtnGoBack from "../../components/btnGoBack";
-import BtnGoHome from "../../components/btnGoHome";
-import Wrapper from "../../components/wrapper";
-import Card from "../../components/card";
-import ListResult from "../../components/listResult";
+import Header from "../../components/Header";
+import BtnGoBack from "../../components/BtnGoBack";
+import BtnGoHome from "../../components/BtnGoHome";
+import Wrapper from "../../components/Wrapper";
+import Card from "../../components/Card";
+import ListResult from "../../components/ListResult";
 
 export const FavsStyled = styled.div``;
 

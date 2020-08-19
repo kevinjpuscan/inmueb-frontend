@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Wrapper from "./wrapper";
+import Wrapper from "./Wrapper";
 
 export const HeaderStyled = styled.div`
   background: var(--white);

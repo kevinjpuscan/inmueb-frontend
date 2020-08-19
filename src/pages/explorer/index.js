@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import Header from "../../components/header";
-import BtnGoHome from "../../components/btnGoHome";
-import InputSearch from "../../components/inputSearch";
-import Wrapper from "../../components/wrapper";
-import Card from "../../components/card";
-import ListResult from "../../components/listResult";
+import Header from "../../components/Header";
+import BtnGoHome from "../../components/BtnGoHome";
+import InputSearch from "../../components/InputSearch";
+import Wrapper from "../../components/Wrapper";
+import Card from "../../components/Card";
+import ListResult from "../../components/ListResult";
 
 export const ExplorerStyled = styled.div`
   .list-result {

@@ -1,6 +1,6 @@
 import React, { useState, Fragment } from "react";
 import styled from "styled-components";
-import Search from "./search";
+import Search from "./Search";
 
 export const InputSearchStyled = styled.input`
   padding: 10px 10px;

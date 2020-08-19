@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import Header from "../../components/header";
-import BtnGoBack from "../../components/btnGoBack";
-import BtnMenu from "../../components/btnMenu";
-import SalesElement from "../../components/salesElement";
-import Wrapper from "../../components/wrapper";
-import ListResult from "../../components/listResult";
+import Header from "../../components/Header";
+import BtnGoBack from "../../components/BtnGoBack";
+import BtnMenu from "../../components/BtnMenu";
+import SalesElement from "../../components/SalesElement";
+import Wrapper from "../../components/Wrapper";
+import ListResult from "../../components/ListResult";
 
 export const SalesStyled = styled.div``;
 

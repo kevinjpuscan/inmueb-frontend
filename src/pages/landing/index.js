@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import Header from "../../components/header";
-import BtnGoHome from "../../components/btnGoHome";
-import Wrapper from "../../components/wrapper";
-import InputSearch from "../../components/inputSearch";
+import Header from "../../components/Header";
+import BtnGoHome from "../../components/BtnGoHome";
+import Wrapper from "../../components/Wrapper";
+import InputSearch from "../../components/InputSearch";
 
 export const LandingStyled = styled.div`
   color: gray;

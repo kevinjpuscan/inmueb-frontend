@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import Header from "../../components/header";
-import BtnGoBack from "../../components/btnGoBack";
-import BtnGoHome from "../../components/btnGoHome";
-import Wrapper from "../../components/wrapper";
-import CarouselImage from "../../components/carouselImage";
+import Header from "../../components/Header";
+import BtnGoBack from "../../components/BtnGoBack";
+import BtnGoHome from "../../components/BtnGoHome";
+import Wrapper from "../../components/Wrapper";
+import CarouselImage from "../../components/CarouselImage";
 import { Map, TileLayer, Polygon } from "react-leaflet";
 
 export const PropertyStyled = styled.div`
