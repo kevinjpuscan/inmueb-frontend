@@ -27,6 +27,8 @@ a {
   --gray: #9998a3;
   --gray-dark: #6e6e79;
   --gray-very-dark: #393944;
+
+  --nav-height: 65px;
 }
 
 a {

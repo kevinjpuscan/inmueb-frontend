@@ -4,7 +4,7 @@ import NavLink from "./NavLink";
 function NavList({ isLogin }) {
   return (
     <div className="navlist">
-      <NavLink href="/" routes={["/explorer"]} className="navlink-element">
+      <NavLink href="/" routes={["explorer"]} className="navlink-element">
         <div className="icon-navlink">
           <i aria-hidden className="fas fa-search"></i>
         </div>
@@ -27,7 +27,7 @@ function NavList({ isLogin }) {
       )}
       <NavLink
         href="/profile"
-        routes={["/profile/login", "/profile/register"]}
+        routes={["profile", "profile"]}
         className="navlink-element"
       >
         <div className="icon-navlink">

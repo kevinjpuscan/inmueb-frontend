@@ -1,13 +1,15 @@
 import React from "react";
-import Header from "../components/Header";
-import BtnGoBack from "../components/BtnGoBack";
-import BtnGoHome from "../components/BtnGoHome";
-import Wrapper from "../components/Wrapper";
-import CarouselImage from "../components/CarouselImage";
-import Layout from "../components/Layout";
+import Header from "../../../components/Header";
+import BtnGoBack from "../../../components/BtnGoBack";
+import BtnGoHome from "../../../components/BtnGoHome";
+import Wrapper from "../../../components/Wrapper";
+import CarouselImage from "../../../components/CarouselImage";
+import Layout from "../../../components/Layout";
 import dynamic from "next/dynamic";
 
-const Map = dynamic(() => import("../components/MapView"), { ssr: false });
+const Map = dynamic(() => import("../../../components/MapView"), {
+  ssr: false
+});
 
 let elementP = {
   coin: "S/.",

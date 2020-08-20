@@ -8,7 +8,8 @@ function NavLink({ children, href, routes = [] }) {
     <Link href={href}>
       <a
         className={
-          router.pathname === href || routes.indexOf(router.pathname) >= 0
+          router.pathname === href ||
+          routes.indexOf(router.pathname.split("/")[1]) >= 0
             ? "navlink-active"
             : ""
         }
