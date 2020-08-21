@@ -2,14 +2,11 @@ import React, { useState, Fragment } from "react";
 
 import Search from "./Search";
 
-function InputSearch() {
+function InputSearch({ placeholder = "¿Dónde comprar?" }) {
   let [open, setOpen] = useState(false);
   return (
     <Fragment>
-      <input
-        onClick={() => setOpen(true)}
-        placeholder="¿Dónde quieres comprar?"
-      ></input>
+      <input onClick={() => setOpen(true)} placeholder={placeholder}></input>
       {open && <Search />}
 
       <style jsx>{`
@@ -22,6 +19,7 @@ function InputSearch() {
           font-weight: 700;
           color: var(--secondary);
           z-index: 999;
+          text-align: center;
         }
       `}</style>
     </Fragment>

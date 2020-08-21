@@ -24,6 +24,11 @@ class MyDocument extends Document {
             src="https://kit.fontawesome.com/a333051f3b.js"
             crossOrigin="anonymous"
           ></script>
+
+          <link
+            rel="stylesheet"
+            href="//cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.3/leaflet.draw.css"
+          />
         </Head>
         <body>
           <Main />
